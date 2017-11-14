@@ -1,4 +1,4 @@
-/*Aula de C - calculadora utilizando funções
+/*Aula de C - Funções
 Aluno: Matheus Guedes RA: 1800586981
 */
 #include <stdio.h>
@@ -56,7 +56,9 @@ int main(void)
         printf("[1] para voltar\n[2] para sair");
         scanf(" %d", &op);
     }while(op==1);
-
+    getchar();
+    system("cls");
+    return 0;
 }
 
 int soma(int n1, int n2)

@@ -1,4 +1,4 @@
-/*Aula de C - FunÁıes
+/*Aula de C - calculadora utilizando fun√ß√µes
 Aluno: Matheus Guedes RA: 1800586981
 */
 #include <stdio.h>
@@ -16,8 +16,8 @@ int main(void)
     int op, op2, x, y;
     do{
         system("cls");
-        printf("Calculadora por funÁ„o\n\n");
-        printf("[1] SOMA\n[2] SUBTRA«√O\n[3] MULTIPLICA«√O\n[4] DIVIS√O\n");
+        printf("Calculadora por fun√ß√£o\n\n");
+        printf("[1] SOMA\n[2] SUBTRA√á√ÉO\n[3] MULTIPLICA√á√ÉO\n[4] DIVIS√ÉO\n");
         scanf(" %d", &op2);
         switch(op2)
         {

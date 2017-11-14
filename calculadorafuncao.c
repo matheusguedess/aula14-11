@@ -3,7 +3,6 @@ Aluno: Matheus Guedes RA: 1800586981
 */
 #include <stdio.h>
 #include <locale.h>
-
 int soma(int n1, int n2);
 int sub(int n1, int n2);
 int mult(int n1, int n2);
